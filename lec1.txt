@@ -1,2 +1,27 @@
+(older version).NET - It is a framework used for window application.
+
+(Advance version).NET core - used for cross platfrom 
+
+*Architecture of .NET
+
+  C# SourceCode    C# compiler
+  ------------->   ------------>
+
+  JS S.C            JS compiler               |               |        |         |      
+  ------------->   ------------>              |  intermediate |        | Just in |        Machine 
+                                              |  Language     |------->|  time   |------>  code
+  Python S.C       Python compiler            |               |        |         |
+  ------------->   --------------->           
+
+  Java S.C          Java compiler
+  ------------->   --------------->
+
+
+CLR(Common Language Runtime) - Combine all code to give to the Intermediate Language
+IL(Intermediate Language) - solve an error
+JIT(Just In Time) - compile the code
+
+C# is Object-Oriented Programming Language developed by microsoft.
+
 
 
