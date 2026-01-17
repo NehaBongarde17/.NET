@@ -41,5 +41,22 @@ class Operators
          	y >>= 1;
 		Console.WriteLine("y >>= 1 -> " + y);
 		
+		//Comparison operators
+		Console.WriteLine("--Comparison--");
+		Console.WriteLine(2 > 3);
+		Console.WriteLine(2 < 3);
+		Console.WriteLine(2 == 3);
+		Console.WriteLine(2 != 3);
+		Console.WriteLine(2 >= 3);
+		Console.WriteLine(2 <= 3);
+
+		//Logical operators
+		int z = 5;
+		Console.WriteLine(z<2 && z<3);
+		Console.WriteLine(z<2 || z<3);
+		Console.WriteLine(!(z<2 && z<3));
+		
 	}
+
+
 }
