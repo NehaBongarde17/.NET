@@ -1,0 +1,34 @@
+delegates -- it is refernece to a method it works like funcion in c,c++
+for static methods delegate encapsulation method only but for instance method it encapsulation method and instances both.
+
+declaration
+Class - public class ClassName()
+delegates - public delegate void Testdelegate()
+
+
+delegates in C# allow u to reference a method like a variable creating for more flexible and dynamic program
+There are 2 types of delegates
+1.single cast - we can call 1 delegate to 1 function 
+2.multi cast - we can call 1 delegate to multiple function
+
+delegates used for event handling program
+
+Can we call directly
+
+
+Event handling -
+An event is a notification mechanisms So button does not know how will handle the key It only raise the event
+
+Event allow object to communicate with each other by sending signals when something interesting happens.
+Cannot be call directly outside the class
+
+delegates                                                  event
+less safety                                                more
+method reference                                           notification mechanisms
+Can we call directly                                       Cannot be call directly outside the class
+
+
+
+event demo myEvent()  --- wrong syntax
+
+Event demo delegate myEvent;  
